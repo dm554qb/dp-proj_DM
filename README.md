@@ -10,6 +10,11 @@
     openssl pkey -in privkey.pem -pubout -out pubkey.pem
 ```
 
+### generovanie publickey z privkey v DER
+```bash
+    openssl pkey -in privkey.der -inform DER -pubout -outform DER -out pubkey.der
+```
+
 ### test kľúčov
 ```bash
     openssl pkey -in privkey.pem -text -noout 
