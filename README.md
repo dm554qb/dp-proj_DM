@@ -29,5 +29,5 @@
 ### Prevod z PEM na DER format
 ```bash
     openssl pkey -in privkey.pem -outform DER -out privkey.der
-    openssl pkey -pubin -in publickey.pem -outform DER -out publickey.der
+    openssl pkey -pubin -in pubkey.pem -outform DER -out pubkey.der
 ```
